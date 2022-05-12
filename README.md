@@ -10,3 +10,12 @@ This is a voice converter for Japanese based on the VOICEVOX. You can convert to
 - Browser: Microsoft Edge or Google Chrome
 
 ## 3. Demo
+
+## 4. Details
+
+## 5. Reference
+
+## 6. License
+
+## 7. Author
+[T. Fujita](https://github.com/To-Fujita)
