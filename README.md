@@ -10,8 +10,14 @@ This is a voice converter for Japanese based on the VOICEVOX. You can convert to
 - Browser: Microsoft Edge or Google Chrome
 
 ## 3. Demo
+![Voice Converter](https://to-fujita.github.io/Images/Voice_Converter.png "Images for Voice Converter")
 
 ## 4. Details
+I have confirmed this Python Script on the above conditions only. I will show you below how to execute the Python script.
+
+### 4-1. Preparation
+
+### 4-2. Try to Convert
 
 ## 5. Reference
 - [VOICEVOX](https://voicevox.hiroshiba.jp/)
