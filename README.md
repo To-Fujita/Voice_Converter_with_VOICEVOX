@@ -21,7 +21,7 @@ Please download the [VOICEVOX](https://voicevox.hiroshiba.jp/), and install to y
   
 (b) Download & unzip the file.  
 Please download following file and put the unzipped folder under the system path passed.
-- Voice Converter: Please download from above "Code".
+- Voice_Converter_with_VOICEVOX: Please download from above "Code".
   
 (c) Install some libraries to your Python  
 Please install following libraries to your Python system.
@@ -33,8 +33,8 @@ Please install following libraries to your Python system.
 (a) Execute the VOICEVOX  
 Please execute the VOICEVOX that is downloaded and installed to your PC, before execute the voice converter.   
   
-(b) Execute the Voice_Converter
-The voice converter program is as follow.
+(b) Execute the Voice_Converter  
+The voice converter program is as follow.  
 - main_Voice_Converter.py
 Please open the above file on the VS Code, then click the "Run" and the "Start Debugging" or the "Run Without Debugging". Wait a few second, it will be displayed "*Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)" at the Terminal. Then, after open the Browser, please input "http://127.0.0.1:5000". You can convert the input text by keybord and/or voice to the wave file and voice that is selected character.  
   
