@@ -14,8 +14,14 @@ This is a voice converter for Japanese based on the VOICEVOX. You can convert to
 ## 4. Details
 
 ## 5. Reference
+- [VOICEVOX](https://voicevox.hiroshiba.jp/)
+- [VS Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
+- [Python](https://www.python.org/)
+
 
 ## 6. License
-
+- Programs: MIT
+- All of the images and VOICEVOX: Please confirm to each author.
+- 
 ## 7. Author
 [T. Fujita](https://github.com/To-Fujita)
