@@ -29,7 +29,7 @@ Please install following libraries to your Python system.
 - wave: pip install wave
 - Flask: pip install Flask
   
-### 4-2. Try to Convert to wave file
+### 4-2. Try to Convert to the Wave File
 (a) Execute the VOICEVOX  
 Please execute the VOICEVOX that is downloaded and installed to your PC, before execute the voice converter.   
   
