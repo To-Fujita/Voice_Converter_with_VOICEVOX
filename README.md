@@ -20,7 +20,7 @@ I have confirmed this Python Script on the above conditions only. I will show yo
 Please download the [VOICEVOX](https://voicevox.hiroshiba.jp/), and install to your PC. 
 
 (b) Download & unzip the file.  
-Please download following file and put these unzipped folder under the system path passed.
+Please download following file and put the unzipped folder under the system path passed.
 - Voice Converter: Please download from above "Code".
   
 (c) Install some libraries to your Python  
