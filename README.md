@@ -16,21 +16,21 @@ This is a voice converter for Japanese based on the VOICEVOX. You can convert to
 I have confirmed this Python Script on the above conditions only. I will show you below how to execute the Python script.
 
 ### 4-1. Preparation
-(a) Download & install VOICEVOX
+(a) Download & install VOICEVOX  
 Please download the [VOICEVOX](https://voicevox.hiroshiba.jp/), and install to your PC. 
 
-(b) Download & unzip the file.
+(b) Download & unzip the file.  
 Please download following file and put these unzipped folder under the system path passed.
 - Voice Converter: Please download from above "Code".
   
-(c) Install some libraries to your Python
+(c) Install some libraries to your Python  
 Please install following libraries to your Python system.
 - requests: pip install requests
 - wave: pip install wave
 - Flask: pip install Flask
   
 ### 4-2. Try to Convert to wave file
-(a) Execute the VOICEVOX
+(a) Execute the VOICEVOX  
 
 (b) 
 
