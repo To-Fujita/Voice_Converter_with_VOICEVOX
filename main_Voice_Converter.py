@@ -10,7 +10,7 @@ app = Flask(__name__, static_url_path='/static')
 answer_data = []
 Speaker_No = 0
 voice_count = 0
-filepath = './Voice_Converter/static/audio/audio'
+filepath = './Voice_Converter_with_VOICEVOX-main/static/audio/audio'
 
 @app.route("/")
 # Display by the HTML
