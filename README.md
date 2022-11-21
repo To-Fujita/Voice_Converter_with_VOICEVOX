@@ -8,6 +8,7 @@ This is a voice converter for Japanese based on the VOICEVOX. You can convert to
 - Visual Studio Code (VS Code)
 - Python 3.9.4 64-bit
 - Browser: Microsoft Edge or Google Chrome
+- VOICEVOX Ver. 0.13.3
 
 ## 3. Demo
 ![Voice Converter](https://to-fujita.github.io/Images/Voice_Converter.png "Images for Voice Converter")
