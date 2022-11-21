@@ -1,7 +1,7 @@
 <!-- Android では、Google Chrome等の省電力設定を解除する必要があります。 -->
 <!DOCTYPE html>
 <html>
-  <title>Index_Voice_Converter.html by VOICEVOX by T. Fujita 2022/05/12</title>
+  <title>Index_Voice_Converter.html by VOICEVOX by T. Fujita 2022/11/21 Revised</title>
 
   <head>
     <meta charset="utf-8" />
@@ -35,7 +35,7 @@
             <img src="./static/images/F021a_R.png" alt="BOT" style="width:50px;height:50px;vertical-align:bottom;"/>
             <span>これは、VOICEVOXによる音声変換器です。　何か入力していただけますか？<br>
               入力された言葉を指定されたキャラクターの音声に変換します。　
-              初めに「VOICEVOX」を起動しておいてください。音声変換に時間がかかるのはお許し下さいね！💖
+              初めに「VOICEVOX-Ver.0.13.3 以降」を起動しておいてください。音声変換に時間がかかるのはお許し下さいね！💖
             </span>
           </p>
         </div>
@@ -262,6 +262,25 @@
         <option value = "17">17:九州そら（セクシー）</option>
         <option value = "18">18:九州そら（ツンツン）</option>
         <option value = "19">19:九州そら（ささやき）</option>
+        <option value = "20">20:もち子さん（ノーマル）</option>
+        <option value = "21">21:剣崎雌雄（ノーマル）</option>
+        <option value = "22">22:ずんだもん（ささやき）</option>
+        <option value = "23">23:WhiteCUL（ノーマル）</option>
+        <option value = "24">24:WhiteCUL（たのしい）</option>
+        <option value = "25">25:WhiteCUL（かなしい）</option>
+        <option value = "26">26:WhiteCUL（びえーん）</option>
+        <option value = "27">27:後鬼（人間Ver.）</option>
+        <option value = "28">28:後鬼（ぬいぐるみver.）</option>
+        <option value = "29">29:No.7（ノーマル）</option>
+        <option value = "30">30:No.7（アナウンス）</option>
+        <option value = "31">31:No.7（読み聞かせ）</option>
+        <option value = "32">32:白上虎太郎（わーい）</option>
+        <option value = "33">33:白上虎太郎（びくびく）</option>
+        <option value = "34">34:白上虎太郎（おこ）</option>
+        <option value = "35">35:白上虎太郎（びえーん）</option>
+        <option value = "36">36:四国めたん（ささやき）</option>
+        <option value = "37">37:四国めたん（ヒソヒソ）</option>
+        <option value = "38">38:ずんだもん（ヒソヒソ）</option>        
         </select>
         <br/><br/>
     </center>
@@ -673,7 +692,45 @@
                 Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:九州そら（ツンツン）" onclick="Dialog_open_VoiceOptions();">';
             } else if (temp_voice == 19) {
                 Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:九州そら（ささやき）" onclick="Dialog_open_VoiceOptions();">';
-            }
+            } else if (temp_voice == 20) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:もち子さん（ノーマル）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 21) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:剣崎雌雄（ノーマル）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 22) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:ずんだもん（ささやき）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 23) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:WhiteCUL（ノーマル）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 24) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:WhiteCUL（たのしい）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 25) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:WhiteCUL（かなしい）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 26) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:WhiteCUL（びえーん）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 27) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:後鬼（人間Ver.）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 28) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:後鬼（ぬいぐるみver.）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 29) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:No.7（ノーマル）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 30) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:No.7（アナウンス）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 31) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:No.7（読み聞かせ）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 32) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:白上虎太郎（わーい）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 33) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:白上虎太郎（びくびく）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 34) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:白上虎太郎（おこ）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 35) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:白上虎太郎（びえーん）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 36) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:四国めたん（ささやき）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 37) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:四国めたん（ヒソヒソ）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 38) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:ずんだもん（ヒソヒソ）" onclick="Dialog_open_VoiceOptions();">';
+           }
         }
 
 // Save Log Data
