@@ -40,8 +40,8 @@ The voice converter program is as follow.
 Please open the above file on the VS Code, then click the "Run" and the "Start Debugging" or the "Run Without Debugging". Wait a few second, it will be displayed "*Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)" at the Terminal. Then, after open the Browser, please input "http://127.0.0.1:5000". You can convert the inputed text by keybord and/or voice to the wave file and voice that is selected character.  
   
 ## 5. History
-2022/5/18:  
-2022/11/21: Supported VOICEVOX Ver. 0.13.3. Expanded from 22 voices to 39 voices.
+2022/05/19: Upload the first version.  
+2022/11/21: Supported VOICEVOX Ver. 0.13.3. Then, expanded from 22 voices to 39 voices.
   
 ## 6. Reference
 - [VOICEVOX](https://voicevox.hiroshiba.jp/)
