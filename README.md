@@ -42,8 +42,8 @@ Please open the above file on the VS Code, then click the "Run" and the "Start D
   
 ## 5. History
 2022/05/19: Upload the first version.  
-2022/11/21: Supported VOICEVOX Ver. 0.13.3. Then, expanded from 22 voices to 39 voices.
-2023/01/10: Supported VOICEVOX Ver. 0.13.4. Then, expanded from 39 voices to 51 voices.
+2022/11/21: Supported VOICEVOX Ver. 0.13.3. Then, expanded from 22 voices to 39 voices.  
+2023/01/10: Supported VOICEVOX Ver. 0.13.4. Then, expanded from 39 voices to 51 voices.  
   
 ## 6. Reference
 - [VOICEVOX](https://voicevox.hiroshiba.jp/)
