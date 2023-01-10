@@ -1,7 +1,7 @@
 <!-- Android では、Google Chrome等の省電力設定を解除する必要があります。 -->
 <!DOCTYPE html>
 <html>
-  <title>Index_Voice_Converter.html by VOICEVOX by T. Fujita 2022/11/21 Revised</title>
+  <title>Index_Voice_Converter.html by VOICEVOX by T. Fujita 2023/01/10 Revised</title>
 
   <head>
     <meta charset="utf-8" />
@@ -35,7 +35,7 @@
             <img src="./static/images/F021a_R.png" alt="BOT" style="width:50px;height:50px;vertical-align:bottom;"/>
             <span>これは、VOICEVOXによる音声変換器です。　何か入力していただけますか？<br>
               入力された言葉を指定されたキャラクターの音声に変換します。　
-              初めに「VOICEVOX-Ver.0.13.3 以降」を起動しておいてください。音声変換に時間がかかるのはお許し下さいね！💖
+              初めに「VOICEVOX-Ver.0.13.4 以降」を起動しておいてください。音声変換に時間がかかるのはお許し下さいね！💖
             </span>
           </p>
         </div>
@@ -280,7 +280,19 @@
         <option value = "35">35:白上虎太郎（びえーん）</option>
         <option value = "36">36:四国めたん（ささやき）</option>
         <option value = "37">37:四国めたん（ヒソヒソ）</option>
-        <option value = "38">38:ずんだもん（ヒソヒソ）</option>        
+        <option value = "38">38:ずんだもん（ヒソヒソ）</option>
+        <option value = "39">39:玄野武宏（喜び）</option>
+        <option value = "40">40:玄野武宏（ツンギレ）</option>
+        <option value = "41">41:玄野武宏（悲しみ）</option>
+        <option value = "42">42:ちび式じい（ノーマル）</option>
+        <option value = "43">43:櫻歌ミコ（ノーマル）</option>
+        <option value = "44">44:櫻歌ミコ（第二形態）</option>
+        <option value = "45">45:櫻歌ミコ（ロリ）</option>        
+        <option value = "46">46:小夜/SAYO（ノーマル）</option>
+        <option value = "47">47:ナースロボ＿タイプＴ（ノーマル）</option>
+        <option value = "48">48:ナースロボ＿タイプＴ（楽々）</option>
+        <option value = "49">49:ナースロボ＿タイプＴ（恐怖）</option>
+        <option value = "50">50:ナースロボ＿タイプＴ（内緒話）</option>
         </select>
         <br/><br/>
     </center>
@@ -730,7 +742,32 @@
                 Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:四国めたん（ヒソヒソ）" onclick="Dialog_open_VoiceOptions();">';
             } else if (temp_voice == 38) {
                 Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:ずんだもん（ヒソヒソ）" onclick="Dialog_open_VoiceOptions();">';
-           }
+            } else if (temp_voice == 39) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:玄野武宏（喜び）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 40) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:玄野武宏（ツンギレ）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 41) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:玄野武宏（悲しみ）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 42) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:ちび式じい（ノーマル）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 43) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:櫻歌ミコ（ノーマル）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 44) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:櫻歌ミコ（第二形態）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 45) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:櫻歌ミコ（ロリ）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 46) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 20px; background-color: #0000ff;" value="VOICEVOX:小夜/SAYO（ノーマル）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 47) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 18px; background-color: #0000ff;" value="VOICEVOX:ナースロボ＿タイプＴ（ノーマル）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 48) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 18px; background-color: #0000ff;" value="VOICEVOX:ナースロボ＿タイプＴ（楽々）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 49) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 18px; background-color: #0000ff;" value="VOICEVOX:ナースロボ＿タイプＴ（恐怖）" onclick="Dialog_open_VoiceOptions();">';
+            } else if (temp_voice == 50) {
+                Voice.innerHTML = '<input type="button" class="normalButton" style="position:absolute; top:60px; left:36%; font-size: 18px; background-color: #0000ff;" value="VOICEVOX:ナースロボ＿タイプＴ（内緒話）" onclick="Dialog_open_VoiceOptions();">';
+
+            }
         }
 
 // Save Log Data
